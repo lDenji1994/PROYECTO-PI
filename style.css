@@ -288,7 +288,7 @@ header{
 
     rgba(5,7,13,.92)),
 
-    url("img/banner.jpg");
+    url("img/somos.png");
 
     background-size:cover;
 
@@ -1508,7 +1508,7 @@ transform:translateY(0px);
       FOTO
 ===========================*/
 
-.cardPersonal img{
+.avatarPlaceholder{
 
     width:170px;
 
@@ -1516,17 +1516,27 @@ transform:translateY(0px);
 
     border-radius:50%;
 
-    object-fit:cover;
-
     margin:auto;
 
     border:5px solid var(--azul);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:rgba(0,191,255,.10);
+
+    color:var(--azul);
+
+    font-size:60px;
 
     transition:.5s;
 
 }
 
-.cardPersonal:hover img{
+.cardPersonal:hover .avatarPlaceholder{
 
     transform:scale(1.08);
 
