@@ -288,7 +288,7 @@ header{
 
     rgba(5,7,13,.92)),
 
-    url("img/somos.png");
+    url("./img/somos.png");
 
     background-size:cover;
 
@@ -896,7 +896,7 @@ transform:translateY(0px);
 
     rgba(5,7,13,.92)),
 
-    url("img/banner2.jpg");
+    url("./img/somos.png");
 
     background-size:cover;
 
@@ -1692,7 +1692,7 @@ transform:translateY(0px);
 
     rgba(5,7,13,.90)),
 
-    url("img/banner3.jpg");
+    url("./img/somos.png");
 
     background-size:cover;
 
